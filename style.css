@@ -1,0 +1,34 @@
+h1{
+    color:purple;
+    font-size:30px;
+    /*abaixo definimos a borda informando todos os seus atributos*/
+    /* largura cor e estilo*/
+    border: 2px purple dashed
+    }
+h4{
+    color:black;
+    font-size:20px;
+}
+li{
+    color:black;
+    font-size:15px;
+}
+body{
+    /*aqui nao usei só link da imagem, mas o link da imagem dentro da página*/
+    /*onde ela se encontra, para não haver perda de deifinição*/
+    background-image: url("https://uploads.metropoles.com/wp-content/uploads/2020/05/30170030/SpaceXdecolagem.jpg");
+    /*no background repeat, usamos no repeat para impedir a repitção da imagem*/
+    /*em diversos quadros diferentes*/
+    background-repeat: no-repeat;
+    /*com o background size ajustamos a imagem para cover, ou seja,*/
+    /*o tamanho inteiro de nossa página*/
+    background-size: cover; 
+}
+/* o ponto(.) se refere a uma classe no arquivo html*/
+.moon{
+    color:orange;
+}
+/*o # se refere a um id em nosso html*/
+#texto{
+    color:brown
+}
